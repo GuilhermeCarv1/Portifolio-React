@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { BsMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import Image from "next/image";
+import deved from "/public/dev-ed-wave.png";
 
 export default function Home() {
   return (
@@ -39,8 +41,20 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-         
-        </section>
+         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+          <Image src={deved} layout="fill" objectFit="cover"/>
+         </div>
+      </section>
+
+      <section>
+        <div>
+           <h3 className="text-3xl py-1">Services I offer</h3> 
+           <p className="text-md py-2 leading-8 text-gray-800">
+            Since the beginning of my journey as a freelance designer and develepor
+           </p>
+        </div>
+      </section>
+
       </main>
     </div>
   );
