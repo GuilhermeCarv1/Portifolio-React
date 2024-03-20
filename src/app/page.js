@@ -3,6 +3,9 @@ import { BsMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import Image from "next/image";
 import deved from "/public/dev-ed-wave.png";
+import design from '/public/design.png';
+import code from '/public/code.png';
+import consulting from '/public/consulting.png';
 
 export default function Home() {
   return (
@@ -50,8 +53,63 @@ export default function Home() {
         <div>
            <h3 className="text-3xl py-1">Services I offer</h3> 
            <p className="text-md py-2 leading-8 text-gray-800">
-            Since the beginning of my journey as a freelance designer and develepor
+            Since the beginning of my journey as a freelance designer and develepor, 
+            I've immersed myself in a world where creativity meets technology, 
+            constantly seeking new challenges and opportunities to expand my skills.
            </p>
+           <p className="text-md py-2 leading-8 text-gray-800">
+           Through countless projects and collaborations, I've honed my craft, 
+           delving deep into the intricacies of design principles and the ever-evolving 
+           landscape of programming languages. With each endeavor, I've not only refined 
+           my technical expertise but also cultivated a keen eye for aesthetics and user experience.
+           </p>
+        </div>
+        <div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="mx-auto mb-8 w-20 h-20">
+              <Image src={design} width={100} height={100} />
+           </div>
+            <h3 className="text-lg font-medium pt-8 pb">Beatiful Designs</h3>
+            <p className="py-2">
+              This journey has been a testament to my passion 
+              for innovation and my commitment to delivering solutions 
+              that not only meet but exceed expectations.
+            </p>
+            <h4 className="py-4 text-teal-600">Desgin tools I use</h4>
+            <p className='text-gray-800 py-1'>Photoshop</p>
+            <p className='text-gray-800 py-1'>Ilustrator</p>
+            <p className='text-gray-800 py-1'>Figma</p>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="mx-auto mb-8 w-20 h-20">
+              <Image src={code} width={100} height={100} />
+           </div>
+            <h3 className="text-lg font-medium pt-8 pb">Beatiful Designs</h3>
+            <p className="py-2">
+              This journey has been a testament to my passion 
+              for innovation and my commitment to delivering solutions 
+              that not only meet but exceed expectations.
+            </p>
+            <h4 className="py-4 text-teal-600">Desgin tools I use</h4>
+            <p className='text-gray-800 py-1'>Photoshop</p>
+            <p className='text-gray-800 py-1'>Ilustrator</p>
+            <p className='text-gray-800 py-1'>Figma</p>
+          </div>
+          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="mx-auto mb-8 w-20 h-20">
+              <Image src={consulting} width={100} height={100} />
+           </div>
+            <h3 className="text-lg font-medium pt-8 pb">Beatiful Designs</h3>
+            <p className="py-2">
+              This journey has been a testament to my passion 
+              for innovation and my commitment to delivering solutions 
+              that not only meet but exceed expectations.
+            </p>
+            <h4 className="py-4 text-teal-600">Desgin tools I use</h4>
+            <p className='text-gray-800 py-1'>Photoshop</p>
+            <p className='text-gray-800 py-1'>Ilustrator</p>
+            <p className='text-gray-800 py-1'>Figma</p>
+          </div>
         </div>
       </section>
 
