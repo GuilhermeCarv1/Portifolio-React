@@ -6,6 +6,7 @@ import deved from "/public/dev-ed-wave.png";
 import design from '/public/design.png';
 import code from '/public/code.png';
 import consulting from '/public/consulting.png';
+import web1 from "../public/web"
 
 export default function Home() {
   return (
@@ -112,7 +113,22 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <section>
+        <div>
+          <h3 className="text-3xl py-1">Portfolio</h3>
+          <p className="text-md py-2 leading-8 text-gray-800">
+            Since the beginning of my journey as a freelance designer and develepor, 
+            I've immersed myself in a world where creativity meets technology, 
+            constantly seeking new challenges and opportunities to expand my skills.
+           </p>
+           <p className="text-md py-2 leading-8 text-gray-800">
+           Through countless projects and collaborations, I've honed my craft, 
+           delving deep into the intricacies of design principles and the ever-evolving 
+           landscape of programming languages. With each endeavor, I've not only refined 
+           my technical expertise but also cultivated a keen eye for aesthetics and user experience.
+           </p>
+        </div>
+      </section>
       </main>
     </div>
   );
