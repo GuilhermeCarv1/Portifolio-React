@@ -133,6 +133,17 @@ export default function Home() {
            my technical expertise but also cultivated a keen eye for aesthetics and user experience.
            </p>
         </div>
+        <div>
+          <div>
+            <Image src={web1} />
+          </div>
+          <div>
+            <Image src={web2} />
+          </div>
+          <div>
+            <Image src={web3} />
+          </div>
+        </div>
       </section>
       </main>
     </div>
