@@ -20,7 +20,7 @@ export default function Home() {
         <title>Guilherme Carvalho Portfolio</title>
       </Head>
 
-      <main className="bg-white px-10">
+      <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="p-10 mb-12 flex justify-between">
             <h1 className="text-xl">developedbyed</h1>
@@ -36,9 +36,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium">Guilherme Carvalho</h2>
-            <h3 className="text-2xl py-2">Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Guilherme Carvalho</h2>
+            <h3 className="text-2xl py-2 md:text-3xl">Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
             Freelancer providing services for programming.
             As a freelancer offering programming services, 
             I am dedicated to delivering tailored solutions 
@@ -50,7 +50,7 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden">
+         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
           <Image src={deved} layout="fill" objectFit="cover"/>
          </div>
       </section>
@@ -142,6 +142,15 @@ export default function Home() {
           </div>
           <div>
             <Image src={web3} />
+          </div>
+          <div>
+            <Image src={web4} />
+          </div>
+          <div>
+            <Image src={web5} />
+          </div>
+          <div>
+            <Image src={web6} />
           </div>
         </div>
       </section>
