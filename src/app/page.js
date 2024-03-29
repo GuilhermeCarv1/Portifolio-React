@@ -133,7 +133,7 @@ export default function Home() {
            my technical expertise but also cultivated a keen eye for aesthetics and user experience.
            </p>
         </div>
-        <div className="lg:flex gap-10">
+        <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div>
             <Image src={web1} />
           </div>
