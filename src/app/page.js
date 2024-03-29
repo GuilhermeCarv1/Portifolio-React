@@ -70,7 +70,7 @@ export default function Home() {
            my technical expertise but also cultivated a keen eye for aesthetics and user experience.
            </p>
         </div>
-        <div>
+        <div className="lg:flex gap-10">
           <div className="text-center shadow-lg p-10 rounded-xl my-10">
             <div className="mx-auto mb-8 w-20 h-20">
               <Image src={design} width={100} height={100} />
@@ -133,7 +133,7 @@ export default function Home() {
            my technical expertise but also cultivated a keen eye for aesthetics and user experience.
            </p>
         </div>
-        <div>
+        <div className="lg:flex gap-10">
           <div>
             <Image src={web1} />
           </div>
