@@ -71,7 +71,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl pt-80 ">Experience</h3>
+            <h3 className="text-3xl pt-20 ">Experience</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
               I have experience in various technologies widely used in today's
               market, such as React, Next.js, JavaScript, Node.js, CSS, PHP, and
@@ -84,45 +84,45 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-react-original"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-react-original"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Components
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-nextjs-original-wordmark"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-nextjs-original-wordmark"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Routing
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-javascript-plain"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-javascript-plain"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Interactivity Dynamism
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-nodejs-plain-wordmark"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-nodejs-plain-wordmark"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Server
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-css3-plain"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-css3-plain"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Styling
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-php-plain"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-php-plain"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Backend
               </h3>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
-              <i className="text-6xl devicon-bootstrap-plain"></i>
-              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+              <i className="text-8xl devicon-bootstrap-plain"></i>
+              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
                 Responsiveness
               </h3>
             </div>
@@ -146,55 +146,55 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/2 flex-1 ">
+            <div className="basis-1/2 flex-1 group">
               <Image
                 src={web1}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 ">
+            <div className="basis-1/3 flex-1 group">
               <Image
                 src={web2}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 ">
+            <div className="basis-1/3 flex-1 group">
               <Image
                 src={web3}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/2 flex-1 ">
+            <div className="basis-1/2 flex-1 group">
               <Image
                 src={web4}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/3 flex-1 ">
+            <div className="basis-1/3 flex-1 group">
               <Image
                 src={web5}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/2 flex-1 ">
+            <div className="basis-1/2 flex-1 group">
               <Image
                 src={web6}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
@@ -202,6 +202,13 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <div className="flex items-center justify-center h-full">
+          <div className="pt-40  text-gray-600">
+            <p>
+              Copyright &#169; 2024 Guilherme Carvalho. All Rights Reserved.
+            </p>
+          </div>
+        </div>
       </main>
     </div>
   );
