@@ -71,69 +71,62 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Services I offer</h3>
+            <h3 className="text-3xl py-1">Experience</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Since the beginning of my journey as a freelance designer and
-              develepor, I've immersed myself in a world where creativity meets
-              technology, constantly seeking new challenges and opportunities to
-              expand my skills.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              Through countless projects and collaborations, I've honed my
-              craft, delving deep into the intricacies of design principles and
-              the ever-evolving landscape of programming languages. With each
-              endeavor, I've not only refined my technical expertise but also
-              cultivated a keen eye for aesthetics and user experience.
+              "I have experience in various technologies widely used in today's
+              market, such as React, Next.js, JavaScript, Node.js, CSS, PHP, and
+              Bootstrap. These experiences have been crucial in developing my
+              deep interest in the field of technology, motivating me not only
+              to change careers but also to leverage other skills already
+              present in my personality, which are valued in the market, such as
+              interpersonal skills, effective communication, emotional
+              intelligence, and adaptability."
             </p>
           </div>
-          <div className="container mx-auto px-4 py-8 max-w-md ">
-            <div className="relative h-full w-full flex items-center justify-center">
-              <div className="profileCard_container  relative p-10 border-2 border-dashed rounded-full border-spacing-4 border-cyan-400/50">
-                <button className="profile_item left-[45px] -top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-react-original "></i>
-                </button>
-
-                <button className="profile_item right-[45px] -top-[4px] absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-nextjs-original-wordmark"></i>
-                </button>
-
-                <button className="profile_item -left-4 top-20 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-bootstrap-plain "></i>
-                </button>
-
-                <button className="profile_item -right-4 top-20 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-javascript-plain "></i>
-                </button>
-
-                <button className="profile_item bottom-8 -left-0 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-php-plain "></i>
-                </button>
-
-                <button className="profile_item bottom-8 -right-0 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-nodejs-plain-wordmark "></i>
-                </button>
-
-                <button className="profile_item right-[40%] -bottom-4 absolute rounded-full bg-cover cursor-pointer border border-gray-400/50 p-[2px] active:scale-95 hover:scale-95 transition-all duration-500">
-                  <i className="text-4xl devicon-css3-plain-wordmark "></i>
-                </button>
-
-                <button className="profile_item w-[200px] h-[200px] p-1 border-2 rounded-full hover:border-cyan-400/50 cursor-pointer transition-all duration-500 z-0">
-                  <div className="w-full bg-white h-full flex items-center justify-center p-2 rounded-full active:scale-95 hover:scale-95 object-cover transition-all duration-500">
-                    <span className="w-20 h-20 inline-block">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          d="M9.99296258,10.5729355 C12.478244,10.5729355 14.4929626,8.55821687 14.4929626,6.0729355 C14.4929626,3.58765413 12.478244,1.5729355 9.99296258,1.5729355 C7.5076812,1.5729355 5.49296258,3.58765413 5.49296258,6.0729355 C5.49296258,8.55821687 7.5076812,10.5729355 9.99296258,10.5729355 Z M10,0 C13.3137085,0 16,2.6862915 16,6 C16,8.20431134 14.8113051,10.1309881 13.0399615,11.173984 C16.7275333,12.2833441 19.4976819,15.3924771 19.9947005,19.2523727 C20.0418583,19.6186047 19.7690435,19.9519836 19.3853517,19.9969955 C19.0016598,20.0420074 18.6523872,19.7816071 18.6052294,19.4153751 C18.0656064,15.2246108 14.4363723,12.0699838 10.034634,12.0699838 C5.6099956,12.0699838 1.93381693,15.231487 1.39476476,19.4154211 C1.34758036,19.7816499 0.998288773,20.0420271 0.614600177,19.9969899 C0.230911582,19.9519526 -0.0418789616,19.6185555 0.00530544566,19.2523267 C0.500630192,15.4077896 3.28612316,12.3043229 6.97954305,11.1838052 C5.19718955,10.1447285 4,8.21217353 4,6 C4,2.6862915 6.6862915,0 10,0 Z"
-                          fill="#555"
-                        ></path>
-                      </svg>
-                    </span>
-                  </div>
-                </button>
-              </div>
+          <div className="lg:flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-react-original"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
             </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-nextjs-original-wordmark"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-javascript-plain"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-nodejs-plain-wordmark"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-css3-plain"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-php-plain"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <i class="text-6xl devicon-bootstrap-plain"></i>
+              <h3 className="text-lg font-medium pt-8 pb-2  ">
+                Beautiful Designs
+              </h3>
+            </div>
+          
           </div>
         </section>
         <section>
