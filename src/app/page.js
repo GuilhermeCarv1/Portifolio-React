@@ -2,10 +2,11 @@ import Head from "next/head";
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
+  AiFillInstagram,
+  AiFillMessage,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import deved from "/public/dev-ed-wave.png";
+import deved from "/public/gui.png";
 import code from "/public/code.png";
 import design from "/public/design.png";
 import consulting from "/public/consulting.png";
@@ -26,18 +27,15 @@ export default function Home() {
 
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="p-10 mb-12 flex justify-between">
+          <nav className="p-10 flex justify-between">
             <div className="group duration-500 -rotate-12 hover:-rotate-0 hover:skew-x-1 skew-x-0 hover:translate-x-6 hover:translate-y-12">
-              <div className="group-hover:duration-400 relative rounded-2xl w-48 h-24 bg-gradient-to-b from-teal-500 to-cyan-500 text-white flex flex-col justify-center items-center gap-1 before:-skew-x-12 before:rounded-2xl before:absolute before:content[''] before:bg-cyan-200 before:right-3 before:top-0 before:w-48 before:h-20 before:-z-10">
-                <span className="text-4xl font-bold">Jr</span>
-                <p className="text-md font-thin">- Frontend Developer -</p>
+              <div className="group-hover:duration-400 relative rounded-md w-32 h-16 bg-gradient-to-b from-teal-500 to-cyan-500 text-white flex flex-col justify-center items-center gap-1 before:-skew-x-12 before:rounded-md before:absolute before:content[''] before:bg-cyan-200 before:right-1 before:top-0 before:w-32 before:h-12 before:-z-10">
+                <span className="text-2xl font-bold">Jr</span>
+                <p className="text-xs font-thin">- Frontend Developer -</p>
               </div>
             </div>
 
             <ul className="flex items-center">
-              <li>
-                <BsFillMoonStarsFill className=" cursor-pointer text-2xl" />
-              </li>
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
@@ -54,79 +52,80 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-              Freelancer providing services for programming. As a freelancer
-              offering programming services, I am dedicated to delivering
-              tailored solutions to meet my clients' needs
+              As a developer, I am committed to delivering more than expected,
+              with quality and dedication.
             </p>
           </div>
-          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+          <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600">
+            <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600 dark:text-gray-400">
+              <AiFillTwitterCircle />
+              <AiFillLinkedin />
+              <AiFillInstagram />
+              <AiFillMessage />
+            </div>
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
-            <Image src={deved} layout="fill" objectFit="cover" />
+          <div className="relative mx-auto rounded-full w-56 h-56 mt-10 overflow-hidden md:w-72 md:h-72">
+            <Image src={deved} />
           </div>
         </section>
 
         <section>
           <div>
-            <h3 className="text-3xl py-1">Experience</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
-              "I have experience in various technologies widely used in today's
+            <h3 className="text-3xl pt-80 ">Experience</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
+              I have experience in various technologies widely used in today's
               market, such as React, Next.js, JavaScript, Node.js, CSS, PHP, and
               Bootstrap. These experiences have been crucial in developing my
               deep interest in the field of technology, motivating me not only
               to change careers but also to leverage other skills already
               present in my personality, which are valued in the market, such as
               interpersonal skills, effective communication, emotional
-              intelligence, and adaptability."
+              intelligence, and adaptability.
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-react-original"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+          <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-react-original"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Components
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-nextjs-original-wordmark"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-nextjs-original-wordmark"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Routing
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-javascript-plain"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-javascript-plain"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Interactivity Dynamism
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-nodejs-plain-wordmark"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-nodejs-plain-wordmark"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Server
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-css3-plain"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-css3-plain"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Styling
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-php-plain"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-php-plain"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Backend
               </h3>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-            <i class="text-6xl devicon-bootstrap-plain"></i>
-              <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1">
+              <i className="text-6xl devicon-bootstrap-plain"></i>
+              <h3 className="text-lg text-teal-700 font-medium pt-4 pb-2">
+                Responsiveness
               </h3>
             </div>
-          
           </div>
         </section>
         <section>
