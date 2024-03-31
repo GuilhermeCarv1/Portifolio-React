@@ -1,9 +1,9 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
   AiFillInstagram,
   AiFillMessage,
+  AiFillGithub,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import deved from "/public/gui.png";
@@ -50,20 +50,30 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Guilherme Carvalho
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Developer</h3>
+            <h3 className="text-2xl py-2 md:text-3xl font-medium">Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
               As a developer, I am committed to delivering more than expected,
               with quality and dedication.
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600">
-      <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600 dark:text-gray-400">
-        <AiFillTwitterCircle className="icone hover:scale-110 transition-transform" />
-        <AiFillLinkedin className="icone hover:scale-110 transition-transform" />
-        <AiFillInstagram className="icone hover:scale-110 transition-transform" />
-        <AiFillMessage className="icone hover:scale-110 transition-transform" />
-      </div>
-    </div>
+            <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600 dark:text-gray-400">
+              <a href="https://github.com/GuilhermeCarv1">
+                {" "}
+                <AiFillGithub className="icone hover:scale-110 transition-transform" />
+              </a>
+              <a href="https://www.linkedin.com/in/guilherme-carvalho-980460281/">
+                {" "}
+                <AiFillLinkedin className="icone hover:scale-110 transition-transform" />
+              </a>
+              <a href="https://www.instagram.com/guilhercarv/">
+                <AiFillInstagram className="icone hover:scale-110 transition-transform" />
+              </a>
+              <a href="">
+                <AiFillMessage className="icone hover:scale-110 transition-transform" />
+              </a>
+            </div>
+          </div>
           <div className="relative mx-auto rounded-full w-56 h-56 mt-10 overflow-hidden md:w-72 md:h-72">
             <Image src={deved} />
           </div>
@@ -71,7 +81,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl pt-20 ">Experience</h3>
+            <h3 className="text-3xl pt-20 font-medium">Experience</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
               I have experience in various technologies widely used in today's
               market, such as React, Next.js, JavaScript, Node.js, CSS, PHP, and
@@ -130,7 +140,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portfolio</h3>
+            <h3 className="text-3xl py-1 font-medium">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance designer and
               develepor, I've immersed myself in a world where creativity meets
@@ -202,6 +212,30 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className=" py-10">
+          <div className="flex flex-col justify-center items-center gap-8">
+            <h1 className="text-5xl pt-40 font-medium">Contact Me</h1>
+            <div className="flex justify-between shadow-lg p-5  rounded-xl my-5 dark:bg-white flex-1">
+              <a
+                className="flex hover:text-teal-600 transition-colors "
+                href="mailto:seuemail@example.com"
+              >
+                <AiFillMessage className="text-4xl text-gray-600" />
+                <p className="mt-1 ml-2 mr-6">
+                  guicarvalhooliveira2468@gmail.com
+                </p>
+              </a>
+              <a
+                className="flex hover:text-teal-600 transition-colors "
+                href="https://www.linkedin.com/in/guilherme-carvalho-980460281/"
+              >
+                <AiFillLinkedin className="text-4xl text-gray-600" />
+                <p className="mt-1 ml-2">Linkedin</p>
+              </a>
+            </div>
+          </div>
+          <div className="text-center pt-4"></div>
+        </footer>
         <div className="flex items-center justify-center h-full">
           <div className="pt-40  text-gray-600">
             <p>
