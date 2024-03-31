@@ -57,13 +57,13 @@ export default function Home() {
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600">
-            <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillInstagram />
-              <AiFillMessage />
-            </div>
-          </div>
+      <div className="text-5xl flex justify-center gap-16 py-1 text-gray-600 dark:text-gray-400">
+        <AiFillTwitterCircle className="icone hover:scale-110 transition-transform" />
+        <AiFillLinkedin className="icone hover:scale-110 transition-transform" />
+        <AiFillInstagram className="icone hover:scale-110 transition-transform" />
+        <AiFillMessage className="icone hover:scale-110 transition-transform" />
+      </div>
+    </div>
           <div className="relative mx-auto rounded-full w-56 h-56 mt-10 overflow-hidden md:w-72 md:h-72">
             <Image src={deved} />
           </div>
