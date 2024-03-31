@@ -31,17 +31,17 @@ export default function Home() {
             <div className="group duration-500 -rotate-12 hover:-rotate-0 hover:skew-x-1 skew-x-0 hover:translate-x-6 hover:translate-y-12">
               <div className="group-hover:duration-400 relative rounded-md w-32 h-16 bg-gradient-to-b from-teal-500 to-cyan-500 text-white flex flex-col justify-center items-center gap-1 before:-skew-x-12 before:rounded-md before:absolute before:content[''] before:bg-cyan-200 before:right-1 before:top-0 before:w-32 before:h-12 before:-z-10">
                 <span className="text-2xl font-bold">Jr</span>
-                <p className="text-xs font-thin">- Frontend Developer -</p>
+                <p className="text-xs font-normal"> Full-Stack Developer </p>
               </div>
             </div>
 
             <ul className="flex items-center">
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8  "
                   href="#"
                 >
-                  Resume
+                  Download Resume
                 </a>
               </li>
             </ul>
@@ -52,8 +52,11 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl font-medium">Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-              As a developer, I am committed to delivering more than expected,
-              with quality and dedication.
+              Hello, my name is Guilherme, I'm 20 years old. I am a
+              communicative and assertive individual, especially when it comes
+              to the field of technology. I am always seeking to learn and
+              expand my behavioral repertoire and skills to tackle challenges
+              and deliver quality results.
             </p>
           </div>
           <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600">
@@ -69,12 +72,9 @@ export default function Home() {
               <a href="https://www.instagram.com/guilhercarv/">
                 <AiFillInstagram className="icone hover:scale-110 transition-transform" />
               </a>
-              <a href="">
-                <AiFillMessage className="icone hover:scale-110 transition-transform" />
-              </a>
             </div>
           </div>
-          <div className="relative mx-auto rounded-full w-56 h-56 mt-10 overflow-hidden md:w-72 md:h-72">
+          <div className="relative mx-auto rounded-full w-56 h-56 mt-10  overflow-hidden md:w-72 md:h-72">
             <Image src={deved} />
           </div>
         </section>
@@ -201,7 +201,7 @@ export default function Home() {
                 layout="responsive"
               />
             </div>
-            <div className="basis-1/2 flex-1 group">
+            <div className=" mb-20 basis-1/2 flex-1 group">
               <Image
                 src={web6}
                 className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
@@ -212,13 +212,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <footer className=" py-10">
+        <footer className=" py-5">
           <div className="flex flex-col justify-center items-center gap-8">
-            <h1 className="text-5xl pt-40 font-medium">Contact Me</h1>
-            <div className="flex justify-between shadow-lg p-5  rounded-xl my-5 dark:bg-white flex-1">
+            <p className=" pt-40 text-gray-600">Get in Touch</p>
+            <h1 className="text-6xl font-medium">Contact Me</h1>
+            <div className="flex justify-between shadow-xl p-4  rounded-xl my-5 dark:bg-white flex-1">
               <a
                 className="flex hover:text-teal-600 transition-colors "
-                href="mailto:seuemail@example.com"
+                href="mailto:guicarvalhooliveira2468@gmail.com"
               >
                 <AiFillMessage className="text-4xl text-gray-600" />
                 <p className="mt-1 ml-2 mr-6">
