@@ -1,10 +1,14 @@
 import Head from "next/head";
+
+
 import {
   AiFillLinkedin,
   AiFillInstagram,
   AiFillMessage,
   AiFillGithub,
 } from "react-icons/ai";
+
+
 
 import deved from "/public/gui.png";
 import Image from "next/image";
@@ -82,18 +86,15 @@ export default function Home() {
           <div>
             <h3 className="text-3xl pt-20 font-medium">Experience</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
-              I have experience in various technologies widely used in today's
-              market, such as React, Next.js, JavaScript, Node.js, CSS, PHP, and
-              Bootstrap. These experiences have been crucial in developing my
-              deep interest in the field of technology, motivating me not only
-              to change careers but also to leverage other skills already
-              present in my personality, which are valued in the market, such as
-              interpersonal skills, effective communication, emotional
-              intelligence, and adaptability.
+              I have experience in some widely used technologies in today's
+              market, such as React, JavaScript, PHP. These experiences were
+              acquired through the study plan I pursued at the <a href="https://www.masterd.pt/curso-web-development" class=" font-bold text-cyan-600">MasterD institution</a>,
+              which provided me with a better understanding of
+              these technologies.
             </p>
           </div>
-          <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
-            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+          <div className="flex flex-col items-center gap-5 py-5 lg:flex-row lg:flex-wrap">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px] ">
               {" "}
               <i className="text-8xl devicon-react-original"></i>
               <div className="flex justify-center items-center ">
@@ -114,6 +115,37 @@ export default function Home() {
                 />
                 <Image
                   src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+              </div>
+            </div>
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px] ">
+              {" "}
+              <i class="text-8xl devicon-tailwindcss-original "></i>
+              <div className="flex justify-center items-center ">
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
@@ -175,7 +207,7 @@ export default function Home() {
                   alt="Star Image"
                 />
                 <Image
-                  src={star1}
+                  src={star2}
                   className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
@@ -201,7 +233,7 @@ export default function Home() {
                   alt="Star Image"
                 />
                 <Image
-                  src={star2}
+                  src={star1}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
@@ -237,7 +269,7 @@ export default function Home() {
                   alt="Star Image"
                 />
                 <Image
-                  src={star1}
+                  src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
@@ -268,7 +300,7 @@ export default function Home() {
                   alt="Star Image"
                 />
                 <Image
-                  src={star1}
+                  src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
@@ -299,12 +331,12 @@ export default function Home() {
                   alt="Star Image"
                 />
                 <Image
-                  src={star1}
+                  src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
                 <Image
-                  src={star1}
+                  src={star2}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
                   alt="Star Image"
                 />
