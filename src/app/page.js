@@ -93,74 +93,221 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-react-original"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-nextjs-original-wordmark"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-2 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-2 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-javascript-plain"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-5 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-5 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-nodejs-plain-wordmark"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-css3-plain"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-php-plain"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
-            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px]">
+              {" "}
               <i className="text-8xl devicon-bootstrap-plain"></i>
               <div className="flex justify-center items-center ">
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
-                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star2}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
+                <Image
+                  src={star1}
+                  className="mt-3 w-8  hover:scale-110 transition-transform"
+                  alt="Star Image"
+                />
               </div>
             </div>
           </div>
