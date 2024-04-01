@@ -5,11 +5,8 @@ import {
   AiFillMessage,
   AiFillGithub,
 } from "react-icons/ai";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+
 import deved from "/public/gui.png";
-import code from "/public/code.png";
-import design from "/public/design.png";
-import consulting from "/public/consulting.png";
 import Image from "next/image";
 import web1 from "/public/web1.png";
 import web2 from "/public/web2.png";
@@ -17,6 +14,8 @@ import web3 from "/public/web3.png";
 import web4 from "/public/web4.png";
 import web5 from "/public/web5.png";
 import web6 from "/public/web6.png";
+import star1 from "/public/stargray.png";
+import star2 from "/public/starblack.png";
 
 export default function Home() {
   return (
@@ -94,47 +93,75 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-5 py-5 lg:flex-row lg:flex-wrap">
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-react-original"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Components
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-nextjs-original-wordmark"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Routing
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-2 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-2 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-javascript-plain"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Interactivity Dynamism
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-5 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-5 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-nodejs-plain-wordmark"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Server
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-css3-plain"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Styling
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-php-plain"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Backend
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
-            <div className="text-center shadow-lg p-5 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
+            <div className="text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100">
               <i className="text-8xl devicon-bootstrap-plain"></i>
-              <h3 className="text-lg text-teal-800 font-medium pt-4 pb-2">
-                Responsiveness
-              </h3>
+              <div className="flex justify-center items-center ">
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star2} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8 mr-2  hover:scale-110 transition-transform" alt="Star Image" />
+                <Image src={star1} className="mt-3 w-8  hover:scale-110 transition-transform" alt="Star Image" />
+              </div>
             </div>
           </div>
         </section>
