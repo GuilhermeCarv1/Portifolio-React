@@ -1,14 +1,11 @@
 import Head from "next/head";
 
-
 import {
   AiFillLinkedin,
   AiFillInstagram,
   AiFillMessage,
   AiFillGithub,
 } from "react-icons/ai";
-
-
 
 import deved from "/public/gui.png";
 import Image from "next/image";
@@ -88,9 +85,15 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-gray-800">
               I have experience in some widely used technologies in today's
               market, such as React, JavaScript, PHP. These experiences were
-              acquired through the study plan I pursued at the <a href="https://www.masterd.pt/curso-web-development" class=" font-bold text-cyan-600">MasterD institution</a>,
-              which provided me with a better understanding of
-              these technologies.
+              acquired through the study plan I pursued at the{" "}
+              <a
+                href="https://www.masterd.pt/curso-web-development"
+                class=" font-bold text-cyan-600"
+              >
+                MasterD institution
+              </a>
+              , which provided me with a better understanding of these
+              technologies.
             </p>
           </div>
           <div className="flex flex-col items-center gap-5 py-5 lg:flex-row lg:flex-wrap">
@@ -363,31 +366,33 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/2 flex-1 group">
-              <Image
-                src={web1}
-                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+              <a href="https://steady-crisp-e8b66a.netlify.app/">
+                <Image
+                  src={web1}
+                  className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/3 flex-1 group">
-              <Image
+              <a href="https://earnest-genie-b1348b.netlify.app/"><Image
                 src={web2}
                 className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-              />
+              /></a>
             </div>
             <div className="basis-1/3 flex-1 group">
-              <Image
+             <a href="https://super-souffle-f137f1.netlify.app/"> <Image
                 src={web3}
                 className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-              />
+              /></a>
             </div>
             <div className="basis-1/2 flex-1 group">
               <Image
