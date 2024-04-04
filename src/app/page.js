@@ -365,10 +365,30 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/2 flex-1 group">
-              <a href="https://steady-crisp-e8b66a.netlify.app/">
+            <div className="basis-1/2 flex-1 group relative">
+              <a
+                href="https://steady-crisp-e8b66a.netlify.app/"
+                className="block relative"
+              >
                 <Image
                   src={web1}
+                  className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+                <div className="text-5xl absolute top-6 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1/FoodRecips/tree/main/src">
+                    <AiFillGithub className="" />
+                  </a>
+                </div>
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1 group">
+              <a href="https://earnest-genie-b1348b.netlify.app/">
+                <Image
+                  src={web2}
                   className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                   width={"100%"}
                   height={"100%"}
@@ -377,22 +397,16 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1 group">
-              <a href="https://earnest-genie-b1348b.netlify.app/"><Image
-                src={web2}
-                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              /></a>
-            </div>
-            <div className="basis-1/3 flex-1 group">
-             <a href="https://super-souffle-f137f1.netlify.app/"> <Image
-                src={web3}
-                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              /></a>
+              <a href="https://super-souffle-f137f1.netlify.app/">
+                {" "}
+                <Image
+                  src={web3}
+                  className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+              </a>
             </div>
             <div className="basis-1/2 flex-1 group">
               <Image
