@@ -396,9 +396,11 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1 group">
-              <a href="https://super-souffle-f137f1.netlify.app/">
-                {" "}
+            <div className="basis-1/3 flex-1 group relative">
+              <a
+                href="https://super-souffle-f137f1.netlify.app/"
+                className="block relative"
+              >
                 <Image
                   src={web3}
                   className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
@@ -406,8 +408,14 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
+                <div className="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1">
+                    <AiFillGithub className="" />
+                  </a>
+                </div>
               </a>
             </div>
+
             <div className="basis-1/2 flex-1 group">
               <Image
                 src={web4}
