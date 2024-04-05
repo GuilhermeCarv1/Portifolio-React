@@ -425,16 +425,28 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="basis-1/2 flex-1 group">
-              <Image
-                src={web4}
-                className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-              />
+            <div className="basis-1/2 flex-1 group relative">
+              <a
+                href="https://algallery.netlify.app/"
+                className="block relative"
+              >
+                <Image
+                  src={web4}
+                  className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
+                  width={"100%"}
+                  height={"100%"}
+                  layout="responsive"
+                />
+                <div className="absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1">
+                    <AiFillGithub className="" />
+                  </a>
+                </div>
+              </a>
             </div>
+
             <div className="basis-1/3 flex-1 group">
+              <a href="https://todolistbox.netlify.app/">
               <Image
                 src={web5}
                 className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
@@ -442,6 +454,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
               />
+              </a>
             </div>
             <div className=" mb-20 basis-1/2 flex-1 group">
               <Image
