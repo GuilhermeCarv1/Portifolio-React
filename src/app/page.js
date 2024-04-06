@@ -398,7 +398,7 @@ export default function Home() {
                   layout="responsive"
                 />
                 <div className="text-4xl absolute top-0 right-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1">
+                  <a href="https://github.com/GuilhermeCarv1/atividade-2-bootrasp/blob/main/index.html">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -418,7 +418,7 @@ export default function Home() {
                   layout="responsive"
                 />
                 <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1">
+                  <a href="https://github.com/GuilhermeCarv1/Weather/blob/main/index.html">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -427,7 +427,7 @@ export default function Home() {
 
             <div className="basis-1/2 flex-1 group relative">
               <a
-                href="https://algallery.netlify.app/"
+                href="https://www.linkedin.com/feed/update/urn:li:activity:7174475766024323072/"
                 className="block relative"
               >
                 <Image
@@ -438,7 +438,7 @@ export default function Home() {
                   layout="responsive"
                 />
                 <div className="text-4xl absolute top-4 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1">
+                  <a href="https://github.com/GuilhermeCarv1/FormPHP/tree/main/formulario">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -458,7 +458,7 @@ export default function Home() {
                   layout="responsive"
                 />
                 <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1">
+                  <a href="https://github.com/GuilhermeCarv1/To-do-List-React/tree/main/src">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -466,7 +466,7 @@ export default function Home() {
             </div>
 
             <div className="mb-20 basis-1/2 flex-1 group relative">
-              <a href="link-do-seu-site" className="block relative">
+              <a href="https://algallery.netlify.app/" className="block relative">
                 <Image
                   src={web6}
                   className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
@@ -474,8 +474,8 @@ export default function Home() {
                   height={"100%"}
                   layout="responsive"
                 />
-                <div className="text-4xl absolute top-2 right-0 opacity-3 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1">
+                <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1/App-Image-React/tree/main/src">
                     <AiFillGithub className="" />
                   </a>
                 </div>
