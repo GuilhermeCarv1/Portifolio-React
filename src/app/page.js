@@ -52,7 +52,7 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl font-medium">Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-              Hello, my name is Guilherme, I'm 20 years old. I am a
+              Hello, my name is Guilherme, I&apos;m 20 years old. I am a
               communicative and assertive individual, especially when it comes
               to the field of technology. I am always seeking to learn and
               expand my behavioral repertoire and skills to tackle challenges
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative mx-auto rounded-full w-56 h-56 mt-10  overflow-hidden md:w-72 md:h-72">
-          <Image src={deved} alt="Imagem do desenvolvedor" />
+            <Image src={deved} alt="Imagem do desenvolvedor" />
           </div>
         </section>
 
@@ -83,12 +83,12 @@ export default function Home() {
           <div>
             <h3 className="text-3xl pt-20 font-medium">Experience</h3>
             <p className="text-md py-5 leading-8 text-gray-800">
-              I have experience in some widely used technologies in today's
+              I have experience in some widely used technologies in today&apos;s
               market, such as React, JavaScript, PHP. These experiences were
               acquired through the study plan I pursued at the{" "}
               <a
                 href="https://www.masterd.pt/curso-web-development"
-                class=" font-bold text-cyan-600"
+                className="font-bold text-cyan-600"
               >
                 MasterD institution
               </a>
@@ -130,7 +130,7 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-1/2 text-center shadow-lg p-14 rounded-xl my-5 dark:bg-white flex-1 hover:bg-teal-100 max-w-[300px] ">
               {" "}
-              <i class="text-8xl devicon-tailwindcss-original "></i>
+              <i className="text-8xl devicon-tailwindcss-original "></i>
               <div className="flex justify-center items-center ">
                 <Image
                   src={star2}
@@ -228,7 +228,7 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  aalt="Estrela Cinza"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
@@ -352,7 +352,7 @@ export default function Home() {
             <h3 className="text-3xl py-1 font-medium">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
               Since the beginning of my journey as a freelance designer and
-              develepor, I've immersed myself in a world where creativity meets
+              developer, I've immersed myself in a world where creativity meets
               technology, constantly seeking new challenges and opportunities to
               expand my skills.
             </p>
@@ -421,16 +421,16 @@ export default function Home() {
                   alt="Imagem do Site 3"
                 />
                 <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1/Weather/blob/main/index.html">
+                  <a href="https://github.com/GuilhermeCarv1/atividade-1-bootstrap">
                     <AiFillGithub className="" />
                   </a>
                 </div>
               </a>
             </div>
 
-            <div className="basis-1/2 flex-1 group relative">
+            <div className="basis-1/3 flex-1 group relative">
               <a
-                href="https://www.linkedin.com/feed/update/urn:li:activity:7174475766024323072/"
+                href="https://youthful-sinoussi-0078b1.netlify.app/"
                 className="block relative"
               >
                 <Image
@@ -441,8 +441,8 @@ export default function Home() {
                   layout="responsive"
                   alt="Imagem do Site 4"
                 />
-                <div className="text-4xl absolute top-4 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1/FormPHP/tree/main/formulario">
+                <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1/site_1.1">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -451,7 +451,7 @@ export default function Home() {
 
             <div className="basis-1/3 flex-1 group relative">
               <a
-                href="https://todolistbox.netlify.app/"
+                href="https://guilhermecarv1.github.io/site2/index.html"
                 className="block relative"
               >
                 <Image
@@ -462,26 +462,29 @@ export default function Home() {
                   layout="responsive"
                   alt="Imagem do Site 5"
                 />
-                <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1/To-do-List-React/tree/main/src">
+                <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1/site2">
                     <AiFillGithub className="" />
                   </a>
                 </div>
               </a>
             </div>
 
-            <div className="mb-20 basis-1/2 flex-1 group relative">
-              <a href="https://algallery.netlify.app/" className="block relative">
+            <div className="basis-1/3 flex-1 group relative">
+              <a
+                href="https://focused-bhabha-df387c.netlify.app/"
+                className="block relative"
+              >
                 <Image
                   src={web6}
                   className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
-                  alt="Imagem do Site62"
+                  alt="Imagem do Site 6"
                 />
-                <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a href="https://github.com/GuilhermeCarv1/App-Image-React/tree/main/src">
+                <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <a href="https://github.com/GuilhermeCarv1/atividade_2_bootsrap">
                     <AiFillGithub className="" />
                   </a>
                 </div>
@@ -489,39 +492,24 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <footer className=" py-5">
-          <div className="flex flex-col justify-center items-center gap-8">
-            <p className=" pt-40 text-gray-600">Get in Touch</p>
-            <h1 className="text-6xl font-medium">Contact Me</h1>
-            <div className="flex justify-between shadow-xl p-4  rounded-xl my-5 dark:bg-white flex-1">
-              <a
-                className="flex hover:text-teal-600 transition-colors "
-                href="mailto:guicarvalhooliveira2468@gmail.com"
-              >
-                <AiFillMessage className="text-4xl text-gray-600" />
-                <p className="mt-1 ml-2 mr-6">
-                  guicarvalhooliveira2468@gmail.com
-                </p>
-              </a>
-              <a
-                className="flex hover:text-teal-600 transition-colors "
-                href="https://www.linkedin.com/in/guilherme-carvalho-980460281/"
-              >
-                <AiFillLinkedin className="text-4xl text-gray-600" />
-                <p className="mt-1 ml-2">Linkedin</p>
-              </a>
-            </div>
+
+        <section>
+          <div className="py-10 flex justify-center items-center gap-5">
+            <a
+              href="#"
+              className="text-xl px-3 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600 transition-colors duration-300"
+            >
+              Hire Me
+            </a>
           </div>
-          <div className="text-center pt-4"></div>
-        </footer>
-        <div className="flex items-center justify-center h-full">
-          <div className="pt-40  text-gray-600">
-            <p>
-              Copyright &#169; 2024 Guilherme Carvalho. All Rights Reserved.
-            </p>
-          </div>
-        </div>
+        </section>
       </main>
+
+      <footer className="bg-gray-900 py-10">
+        <div className="text-center text-white">
+          <p>&copy; 2024 Guilherme Carvalho. All rights reserved.</p>
+        </div>
+      </footer>
     </div>
   );
 }
