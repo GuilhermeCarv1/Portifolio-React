@@ -27,7 +27,7 @@ export default function Home() {
 
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          <nav className="p-10 flex justify-between">
+          <nav className="p-10 max-sm:flex-col  max-sm:items-center flex justify-between">
             <div className="group duration-500 -rotate-12 hover:-rotate-0 hover:skew-x-1 skew-x-0 hover:translate-x-6 hover:translate-y-12">
               <div className="group-hover:duration-400 relative rounded-md w-32 h-16 bg-gradient-to-b from-teal-500 to-cyan-500 text-white flex flex-col justify-center items-center gap-1 before:-skew-x-12 before:rounded-md before:absolute before:content[''] before:bg-cyan-200 before:right-1 before:top-0 before:w-32 before:h-12 before:-z-10">
                 <span className="text-2xl font-bold">Jr</span>
@@ -35,7 +35,7 @@ export default function Home() {
               </div>
             </div>
 
-            <ul className="flex items-center">
+            <ul className="flex items-center max-sm:mt-20">
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8  "
@@ -497,7 +497,7 @@ export default function Home() {
           <div className="flex flex-col justify-center items-center gap-8">
             <p className=" pt-40 text-gray-600">Get in Touch</p>
             <h1 className="text-6xl font-medium">Contact Me</h1>
-            <div className="flex justify-between shadow-xl p-4  rounded-xl my-5 dark:bg-white flex-1">
+            <div className="flex max-sm:flex-col justify-between shadow-xl p-4  rounded-xl my-5 dark:bg-white flex-1">
               <a
                 className="flex hover:text-teal-600 transition-colors "
                 href="mailto:guicarvalhooliveira2468@gmail.com"
