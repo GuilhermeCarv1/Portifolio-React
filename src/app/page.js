@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import Image from "next/image";
 import {
   AiFillLinkedin,
   AiFillInstagram,
@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 
 import deved from "/public/gui.png";
-import Image from "next/image";
+
 import web1 from "/public/web1.png";
 import web2 from "/public/web2.png";
 import web3 from "/public/web3.png";
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative mx-auto rounded-full w-56 h-56 mt-10  overflow-hidden md:w-72 md:h-72">
-            <Image src={deved} />
+          <Image src={deved} alt="Imagem do desenvolvedor" />
           </div>
         </section>
 
@@ -104,27 +104,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -135,27 +135,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -166,27 +166,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-2 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
                 <Image
                   src={star1}
                   className="mt-2 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -197,27 +197,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-5 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-5 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -228,27 +228,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  aalt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -259,27 +259,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -290,27 +290,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star1}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Preta"
                 />
               </div>
             </div>
@@ -321,27 +321,27 @@ export default function Home() {
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8 mr-2  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
                 <Image
                   src={star2}
                   className="mt-3 w-8  hover:scale-110 transition-transform"
-                  alt="Star Image"
+                  alt="Estrela Cinza"
                 />
               </div>
             </div>
@@ -376,6 +376,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site 1"
                 />
                 <div className="text-4xl absolute top-6 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/FoodRecips/tree/main/src">
@@ -396,6 +397,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site 2"
                 />
                 <div className="text-4xl absolute top-0 right-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/atividade-2-bootrasp/blob/main/index.html">
@@ -416,6 +418,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site 3"
                 />
                 <div className="text-4xl absolute top-3 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/Weather/blob/main/index.html">
@@ -436,6 +439,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site 4"
                 />
                 <div className="text-4xl absolute top-4 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/FormPHP/tree/main/formulario">
@@ -456,6 +460,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site 5"
                 />
                 <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/To-do-List-React/tree/main/src">
@@ -473,6 +478,7 @@ export default function Home() {
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
+                  alt="Imagem do Site62"
                 />
                 <div className="text-4xl absolute top-2 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a href="https://github.com/GuilhermeCarv1/App-Image-React/tree/main/src">
