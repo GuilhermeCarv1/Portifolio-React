@@ -30,8 +30,8 @@ export default function Home() {
           <nav className="p-10 max-sm:flex-col  max-sm:items-center flex justify-between">
             <div className="group duration-500 -rotate-12 hover:-rotate-0 hover:skew-x-1 skew-x-0 hover:translate-x-6 hover:translate-y-12">
               <div className="group-hover:duration-400 relative rounded-md w-32 h-16 bg-gradient-to-b from-teal-500 to-cyan-500 text-white flex flex-col justify-center items-center gap-1 before:-skew-x-12 before:rounded-md before:absolute before:content[''] before:bg-cyan-200 before:right-1 before:top-0 before:w-32 before:h-12 before:-z-10">
-                <span className="text-2xl font-bold">Jr</span>
-                <p className="text-xs font-normal"> Full-Stack Developer </p>
+                <span className="text-2xl font-bold cursor-default">Jr</span>
+                <p className="text-xs font-normal cursor-default"> Full-Stack Developer </p>
               </div>
             </div>
 
@@ -48,11 +48,11 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl cursor-default">
               Guilherme Carvalho
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl font-medium">Developer</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+            <h3 className="text-2xl py-2 md:text-3xl font-medium cursor-default">Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto cursor-default">
               Hello, my name is Guilherme, I'm 20 years old. I am a
               communicative and assertive individual, especially when it comes
               to the field of technology. I am always seeking to learn and
@@ -82,8 +82,8 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl pt-20 font-medium">Experience</h3>
-            <p className="text-md py-5 leading-8 text-gray-800">
+            <h3 className="text-3xl pt-20 font-medium cursor-default">Experience</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 cursor-default">
               I have experience in some widely used technologies in today's
               market, such as React, JavaScript, PHP. These experiences were
               acquired through the study plan I pursued at the{" "}
@@ -350,14 +350,14 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 font-medium">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 font-medium cursor-default">Portfolio</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 cursor-default">
               Since the beginning of my journey as a freelance designer and
               develepor, I've immersed myself in a world where creativity meets
               technology, constantly seeking new challenges and opportunities to
               expand my skills.
             </p>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <p className="text-md py-2 leading-8 text-gray-800 cursor-default">
               Through countless projects and collaborations, I've honed my
               craft, delving deep into the intricacies of design principles and
               the ever-evolving landscape of programming languages. With each
@@ -495,8 +495,8 @@ export default function Home() {
         </section>
         <footer className=" py-5">
           <div className="flex flex-col justify-center items-center gap-8">
-            <p className=" pt-40 text-gray-600">Get in Touch</p>
-            <h1 className="text-6xl font-medium">Contact Me</h1>
+            <p className=" pt-40 text-gray-600 cursor-default">Get in Touch</p>
+            <h1 className="text-6xl font-medium cursor-default">Contact Me</h1>
             <div className="flex max-sm:flex-col justify-between shadow-xl p-4  rounded-xl my-5 dark:bg-white flex-1">
               <a
                 className="flex hover:text-teal-600 transition-colors "
@@ -519,7 +519,7 @@ export default function Home() {
           <div className="text-center pt-4"></div>
         </footer>
         <div className="flex items-center justify-center h-full">
-          <div className="pt-40  text-gray-600">
+          <div className="pt-40  text-gray-600 cursor-default">
             <p>
               Copyright &#169; 2024 Guilherme Carvalho. All Rights Reserved.
             </p>
