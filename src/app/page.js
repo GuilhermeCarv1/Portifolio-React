@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 
 import deved from "/public/gui.png";
-
+import curriculo from "/public/curriculo.pdf";
 import web1 from "/public/web1.png";
 import web2 from "/public/web2.png";
 import web3 from "/public/web3.png";
@@ -39,7 +39,8 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8  "
-                  href="#"
+                  href="/curriculo.pdf"
+                  download="curriculo.pdf"
                 >
                   Download Resume
                 </a>
@@ -75,7 +76,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative mx-auto rounded-full w-56 h-56 mt-10  overflow-hidden md:w-72 md:h-72">
-          <Image src={deved} alt="Imagem do desenvolvedor" />
+            <Image src={deved} alt="Imagem do desenvolvedor" />
           </div>
         </section>
 
@@ -471,7 +472,10 @@ export default function Home() {
             </div>
 
             <div className="mb-20 basis-1/2 flex-1 group relative">
-              <a href="https://algallery.netlify.app/" className="block relative">
+              <a
+                href="https://algallery.netlify.app/"
+                className="block relative"
+              >
                 <Image
                   src={web6}
                   className="rounded-lg object-cover transition-transform duration-300 transform hover:scale-105"
